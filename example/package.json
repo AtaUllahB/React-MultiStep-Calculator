@@ -1,0 +1,41 @@
+{
+  "name": "react-multistep-example",
+  "homepage": "https://srdjan.github.io/react-multistep",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "alias": {
+    "react": "../node_modules/react"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.25.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
+    "react-charts": "^2.0.0-beta.6",
+    "react-charts-d3": "^2.4.1",
+    "react-countup": "^4.3.3",
+    "react-dom": "^16.13.1",
+    "react-donut-chart": "^1.1.8",
+    "react-google-charts": "^3.0.15",
+    "react-icons": "^3.10.0",
+    "react-multistep": "file:.."
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-react": "^7.9.4",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "parcel": "1.12.4"
+  }
+}

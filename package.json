@@ -1,0 +1,41 @@
+{
+  "name": "react-multistep",
+  "version": "5.0.7",
+  "description": "Responsive ReactJS multistep form component",
+  "main": "index.umd.js",
+  "module": "index.esm.js",
+  "license": "MIT",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "keywords": [
+    "react, reactjs, responsive, component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
+  "dependencies": {
+    "goober": "1.8.0"
+  },
+  "devDependencies": {
+    "csstype": "2.6.10",
+    "esbuild": "0.2.10",
+    "react": "16.13.1"
+  },
+  "peerDependencies": {
+    "react": "16.13.1"
+  },
+  "scripts": {
+    "build": "esbuild react-multistep.js '--define:process.env.NODE_ENV=\"development\"' --external:'react' --bundle --format=cjs --loader:.js=jsx --outfile=index.js",
+    "build:prod": "esbuild react-multistep.js '--define:process.env.NODE_ENV=\"production\"' --external:'react' --bundle --minify --format=cjs --loader:.js=jsx --outfile=index.js",
+    "pub:dry": "npm publish ./ --dry-run",
+    "pub": "npm publish ./"
+  }
+}
